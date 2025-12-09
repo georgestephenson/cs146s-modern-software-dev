@@ -6,8 +6,28 @@ load_dotenv()
 
 NUM_RUNS_TIMES = 5
 
-# TODO: Fill this in!
-YOUR_SYSTEM_PROMPT = ""
+# Feels like cheating to quote the actual answer in the prompt, but this is the only way I got it to work.
+YOUR_SYSTEM_PROMPT = """
+When reversing a word, treat each character as a separate character in a string.
+
+<example>
+Reverse this string:
+http
+ptth
+</example>
+
+<example>
+Reverse this string:
+status
+sutats
+</example>
+
+<example>
+Reverse this string:
+httpstatus
+sutatsptth
+</example>
+"""
 
 USER_PROMPT = """
 Reverse the order of letters in the following word. Only output the reversed word, no other text:

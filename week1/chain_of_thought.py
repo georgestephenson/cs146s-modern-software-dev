@@ -7,8 +7,11 @@ load_dotenv()
 
 NUM_RUNS_TIMES = 5
 
-# TODO: Fill this in!
-YOUR_SYSTEM_PROMPT = ""
+# Giving a strong hint about how to work out the problem worked.
+YOUR_SYSTEM_PROMPT = """
+Reason about this problem step-by-step mathematically.
+Use Euler's totient theorem to reduce the exponent.
+"""
 
 
 USER_PROMPT = """

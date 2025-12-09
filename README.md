@@ -1,27 +1,51 @@
-# Assignments for CS146S: The Modern Software Developer
+# CS146S: The Modern Software Developer
 
-This is the home of the assignments for [CS146S: The Modern Software Developer](https://themodernsoftware.dev), taught at Stanford University fall 2025.
+## Stanford University • Fall 2025
 
-## Repo Setup
-These steps work with Python 3.12.
+These are my own notes and solutions to the Stanford CS146S course, which is freely available at [themodernsoftware.dev](https://themodernsoftware.dev/).
 
-1. Install Anaconda
-   - Download and install: [Anaconda Individual Edition](https://www.anaconda.com/download)
-   - Open a new terminal so `conda` is on your `PATH`.
+As of writing there are no video recordings of the lectures that are publicly available, however the course does provide the following for its ten weeks:
+- Topics covered
+- Lecture slides and notes
+- An extensive reading list
+- A weekly assignment
 
-2. Create and activate a Conda environment (Python 3.12)
-   ```bash
-   conda create -n cs146s python=3.12 -y
-   conda activate cs146s
-   ```
+Therefore there is plenty of material available for anyone to follow along. The assignments are all available at [github.com/mihail911/modern-software-dev-assignments](https://github.com/mihail911/modern-software-dev-assignments) and this is my fork of that repo.
 
-3. Install Poetry
-   ```bash
-   curl -sSL https://install.python-poetry.org | python -
-   ```
+### Course Schedule
 
-4. Install project dependencies with Poetry (inside the activated Conda env)
-   From the repository root:
-   ```bash
-   poetry install --no-interaction
-   ```
+- [ ] Week 1: Introduction to Coding LLMs and AI Development
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 2: The Anatomy of Coding Agents
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 3: The AI IDE
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 4: Coding Agent Patterns
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 5: The Modern Terminal
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 6: AI Testing and Security
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 7: Modern Software Support
+  - [ ] Slides
+  - [ ] Reading
+  - [ ] Assignment
+- [ ] Week 8: Automated UI and App Building
+  - [ ] Slides
+  - [ ] Assignment
+- [ ] Week 9: Agents Post-Deployment
+  - [ ] Slides
+- [ ] Week 10: What's Next for AI Software Engineering
+  - [ ] Slides

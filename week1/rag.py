@@ -35,9 +35,9 @@ QUESTION = (
     "to fetch a user by id and returns only the user's name as a string."
 )
 
-
-# TODO: Fill this in!
-YOUR_SYSTEM_PROMPT = ""
+YOUR_SYSTEM_PROMPT = """
+You are required to write a Python function calling an API which is documented in the specified context.
+"""
 
 
 # For this simple example
@@ -52,11 +52,8 @@ REQUIRED_SNIPPETS = [
 
 
 def YOUR_CONTEXT_PROVIDER(corpus: List[str]) -> List[str]:
-    """TODO: Select and return the relevant subset of documents from CORPUS for this task.
-
-    For example, return [] to simulate missing context, or [corpus[0]] to include the API docs.
-    """
-    return []
+    print(corpus)
+    return [corpus[0]]
 
 
 def make_user_prompt(question: str, context_docs: List[str]) -> str:

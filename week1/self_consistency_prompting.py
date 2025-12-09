@@ -8,8 +8,14 @@ load_dotenv()
 
 NUM_RUNS_TIMES = 5
 
-# TODO: Fill this in! Try to get as close to 100% correctness across all runs as possible.
-YOUR_SYSTEM_PROMPT = ""
+# Hinting about the steps gave more accuracy. In my run I got 80% correct.
+YOUR_SYSTEM_PROMPT = """
+Reason about this problem step-by-step mathematically.
+Step 1: Determine the location of the second stop
+Step 2: Calculate the distance traveled between stops
+Once you're confident and want to box in your answer, don't forget to write a new line with only the following:
+Answer: <number>
+"""
 
 USER_PROMPT = """
 Solve this problem, then give the final answer on the last line as "Answer: <number>".
