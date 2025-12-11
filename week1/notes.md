@@ -106,4 +106,25 @@ Be explicit, decompose tasks.
 - This [LLM Visualization website](https://bbycroft.net/llm) can help to visualize the mathematical function behind how the GPT LLMs generate output.
 - The [DeepSeek-R1 paper](https://arxiv.org/abs/2501.12948) was really one of the first papers to publicly shed light on the process of reinforcement learning for an LLM.
 
-## Article: Prompt Engineering Overview
+## Article: [Prompt Engineering Overview](https://cloud.google.com/discover/what-is-prompt-engineering) by Google
+
+Reiterating a lot of what was on the slides - prompt engineering techniques and common sense examples of concise prompting.
+
+## Site: [Prompt Engineering Guide](https://www.promptingguide.ai/techniques) by promptingguide.ai
+
+Good guide of prompting techniques with citations showing how techniques are proven to work empirically.
+- Few-shot worked well for e.g. categorising sentiment of a movie, but not for number calculations where CoT reasoning allows more thinking time to computer the answer.
+- Zero-shot CoT is CoT without specific examples given, just a trigger phrase like "think step-by-step" is enough to get the model to ruminate on a problem for longer.
+- Auto-CoT - sort of like self-generated few-shot prompting, the model gives itself reasoning examples to follow, and then uses this examples on a new question without further examples.
+- Meta Prompting: specifying the structure and syntax that the answer should be given in, provide an abstract framework for the model to follow. For example, the relationship between how models are trained on maths problem and how LaTeX is one of the better and more well-supported formats for precisely specifying maths is interesting. I'm not sure if "thinking in LaTeX" specifically would help or hinder the model, it probably depends.
+- Tree of Thoughts (ToT), like Chain of Thought but model traverses a tree of intermediate thoughts, can process alternative thoughts at a particular step, and can backtrack to reach a desired outcome.
+- Automatic Prompt Engineer (APE) is a way to use LLMs to generate instructions/prompts. It finds the prompt "Let's work this out in a step by step way to be sure we have the right answer" is better than the human-designed "Let's think step by step".
+
+## Video: [AI prompt engineering: A deep dive](https://www.youtube.com/watch?v=T9aRN5JkmL8) by Anthropic
+
+Informal discussion about prompt engineering, interesting to hear the perspective of some of the important people in this novel discipline - the people working on Claude at Anthropic.
+
+## Document: [How OpenAI uses Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)
+
+Suggestions on how to use the Codex coding tool in practice, a lot of the suggestions mirror what I've been using GitHub Copilot and Claude Sonnet to do every day at work, however some ideas I've not tried, e.g. "Generate a plan to refactor this service 
+and split it into smaller modules."

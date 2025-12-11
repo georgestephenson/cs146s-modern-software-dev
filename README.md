@@ -14,10 +14,10 @@ Therefore there is plenty of material available for anyone to follow along. The 
 
 ### Course Schedule
 
-- [ ] Week 1: Introduction to Coding LLMs and AI Development
-  - [ ] Slides
-  - [ ] Reading
-  - [ ] Assignment
+- [x] Week 1: Introduction to Coding LLMs and AI Development
+  - [x] Slides
+  - [x] Reading
+  - [x] Assignment
 - [ ] Week 2: The Anatomy of Coding Agents
   - [ ] Slides
   - [ ] Reading
@@ -46,6 +46,4 @@ Therefore there is plenty of material available for anyone to follow along. The 
   - [ ] Slides
   - [ ] Assignment
 - [ ] Week 9: Agents Post-Deployment
-  - [ ] Slides
-- [ ] Week 10: What's Next for AI Software Engineering
   - [ ] Slides
